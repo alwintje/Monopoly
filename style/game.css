@@ -1,0 +1,418 @@
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  src: local('Droid Sans'), local('DroidSans'), url(http://themes.googleusercontent.com/static/fonts/droidsans/v4/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'kabel';
+  font-style: normal;
+  src: url(kabel.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Droid Sans';
+    font-size: 14px;
+}
+
+
+.game-info{
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+    z-index: 20;
+    background: rgba(50,50,50,0.1);
+    /*border: solid 1px #AFA;*/
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(55, 55, 55, 0.2);
+    -moz-box-shadow:    0px 0px 20px 0px rgba(55, 55, 55, 0.2);
+    box-shadow:         0px 0px 20px 0px rgba(55, 55, 55, 0.2);
+}
+.game-info table{
+    width: 100%;
+    color: #777;
+}
+.game-info table th{
+    text-align: left;
+    width: auto;
+    color: #000;
+}
+
+
+.game-info .selected{
+    color: #000;
+}
+
+.game-info .pion{
+    opacity: 0;
+    max-width: 0px;
+}
+.game-info .pion img{
+    height: 0px;
+}
+.token{
+    transition: left 2s, top 2s;
+}
+.dobbel{
+    position: absolute;
+    width: 170px;
+    margin-left: -70px;
+    top: 535px;
+    z-index: 20;
+}
+.dobbel .bttn {
+    margin-top: -65px;
+}
+.dobbel .bttn input{
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+#chance-cards{
+    position: absolute;
+    top: 740px;
+    left: 920px;
+    z-index: 10;
+    background: #F00;
+    width: 200px;
+    height: 100px;
+    border: double 20px #FFF;
+    border-radius: 10px;
+    margin: -5px 0px 0px -240px;
+}
+
+#chance-cards .circle{
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    background: #FFF;
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    background: url('../icons/chance-card.gif') center center no-repeat #FFF;
+    background-size: auto 100%;
+}
+#chest-cards{
+    position: absolute;
+    top: 230px;
+    left: 420px;
+    z-index: 10;
+    background: #00adef;
+    width: 200px;
+    height: 100px;
+    border: double 20px #FFF;
+    border-radius: 10px;
+    margin: -5px 0px 0px -240px;
+}
+
+#chest-cards .circle{
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    background: #FFF;
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    background: url('../icons/chest.gif') center center no-repeat #FFF;
+    background-size: 100% auto;
+}
+
+#board .logo-mark{
+    position: absolute;
+    width: 572px;
+    height: 118px;
+    margin-left: -286px;
+    margin-top: 100px;
+    opacity: 0.3;
+    left: 50%;
+    top: 50%;
+    background: url('../icons/logo-mark.png') center center no-repeat;
+    background-size: 100% 100%;
+    margin: -59px 0px 0px -280px;
+}
+.middle{
+    position: absolute;
+    border: solid 1px #F00;
+    width: 1102px;
+    height: 1102px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(55, 55, 55, 0.5);
+    -moz-box-shadow:    0px 0px 20px 0px rgba(55, 55, 55, 0.5);
+    box-shadow:         0px 0px 20px 0px rgba(55, 55, 55, 0.5);
+}
+
+#popup, .darkBG, #popup .box{
+     display: none; /* */
+     z-index: 31;
+}
+#popup, .darkBG{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.darkBG{
+    background: rgba(0,0,0,0.6);
+    z-index: 30;
+}
+#popup .box{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 600px;
+    height: 400px;
+    margin: -185px 0 0 -305px;
+    /*background: rgba(255,255,255,1);*/
+    background: #9F9;
+    z-index: 31;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow:    0px 0px 20px 0px rgba(0, 0, 0, 1);
+    box-shadow:         0px 0px 20px 0px rgba(0, 0, 0, 1);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: solid 5px rgba(0,0,0, 1);
+}
+#popup .box .logo{
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    height: 40px;
+    background: url('../icons/logo.png') top center no-repeat;
+    background-size: 100% auto;
+}
+#popup .box .logo-mark{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 288px;
+    height: 60px;
+    margin-left: -144px;
+    margin-top: -30px;
+    opacity: 0.2;
+    background: url('../icons/logo-mark.png') center center no-repeat;
+    background-size: 100% 100%;
+            transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+#popup .box .inner{
+    padding: 5px;
+    width: 590px;
+    height: 390px;
+}
+#popup .box .inner .commun .text{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#popup .box .inner .chance .text{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#popup .box .inner .chance #chance-cards, #popup .box .inner .commun #chest-cards{
+    top: 50%;
+    left: 50%;
+    margin-left: -120px;
+    margin-top: -70px;
+}
+#popup .box .inner .commun .button{
+}
+#popup .box .inner .chance .button{
+}
+#popup .box .inner .house .icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: -57px;
+    width: 150px;
+    height: 114px;
+    background: url('../icons/tokens/house.png') center center no-repeat;
+    background-size: 100% 100%;
+}
+#popup .box .inner .house{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+#alertBox{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: auto;
+    margin-left: -135px;
+    transform: translateY(-50%);
+    background: #EEE;
+    padding: 10px;
+    z-index: 40;
+    text-align: center;
+    display: none;
+}
+#alertBox .bttns{
+    text-align: center;
+    width: 100%;
+}
+#alertBox .bttns input{
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+#housePanel{
+    height: 200px;
+    width: auto;
+    margin-bottom: 50px;
+    display: block;
+}
+#housePanel table{
+    border-collapse: collapse;
+    border: solid 1px #333;
+}
+#housePanel table td{
+    vertical-align: top;
+    border-left: 1px solid #333;
+    text-align: center;
+    width: 180px;
+}
+#housePanel table td table, #housePanel table td table td{
+    border: 0px solid #333;
+    text-align: left;
+    width: 180px;
+    border-top: solid 1px #AAA;
+}
+#housePanel .selected{
+    font-weight: 800;
+    background: #DDD;
+    color: #222;
+    transition: all 1s;
+}
+#cardDeck .text{
+    display: none;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    overflow: hidden;
+}
+#cardDeck .inner{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 35px;
+    height: 39px;
+    overflow: hidden;
+    font-size: 40px;
+    text-align: left;
+    color: #000;
+    border: solid 1px #555;
+    padding: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: rgba(255,255,255, 0.5);
+    border-color: rgba(0,0,0, 0.5);
+    z-index: 29;
+    transition: all 1s;
+}
+#cardDeck .inner.openCardDeck{
+    width: 250px;
+    height: auto;
+    font-size: 16px;
+    cursor: auto;
+    padding: 10px;
+}
+#cardDeck .inner h3{
+    text-align: center;
+    font-size: 18px;
+}
+#cardDeck .inner table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#cardDeck  .inner a{
+    color: #00A;
+    cursor: pointer;
+    text-decoration: none;
+}
+#cardDeck  .inner a:hover{
+    color: #404;
+    text-decoration: none;
+}
+#cardDeck .inner .houses {
+    cursor: pointer;
+}
+#cardDeck .inner .houses:hover {
+    background: none repeat scroll 0 0 rgba(0,0,0,0.3);
+}
+#cardDeck .inner table td, #cardDeck .inner table th {
+    padding: 2px;
+}
+/*
+#cardDeck .inner{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 5px;
+    border: solid 1px #333;
+    border-color: rgba(0,0,0, 0.5);
+    width: 250px;
+    height: 400px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: rgba(255,255,255, 0.5);
+    overflow: hidden;
+    text-align: left;
+    z-index: 200;
+    display: none;
+    
+}
+*/
+
+
+#console{
+    position: fixed;
+    top: 2px;
+    right: 2px;
+    width: 350px;
+    height: 400px;
+    overflow: auto;
+    background: rgba(0,0,0,0.4);
+    color: #FFF;
+    z-index: 1000;
+    padding: 10px;
+}
+#console:hover{
+    background: rgba(0,0,0,0.8);
+}
+.house img{
+    margin-top: 5px;
+    max-width: 22px;
+    max-height: 25px;
+}
+.hotel img{
+    margin-top: -13px;
+    width: 50px;
+    height: 50px;
+}

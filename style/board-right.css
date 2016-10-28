@@ -1,0 +1,147 @@
+
+
+
+#board .right .block{
+    position: absolute;
+    width: 90px;
+    height: 130px;
+    border: solid 3px #333;
+    display: inline-block;
+}
+#board .right .block:nth-child(1){
+    left: 0px;
+}
+#board .right .block:nth-child(2){
+    left: 93px;
+}
+#board .right .block:nth-child(3){
+    left: 186px;
+}
+#board .right .block:nth-child(4){
+    left: 279px;
+}
+#board  .right .block:nth-child(5){
+    left: 372px;
+}
+#board .right .block:nth-child(6){
+    left: 465px;
+}
+#board .right .block:nth-child(7){
+    left: 558px;
+}
+#board .right .block:nth-child(8){
+    left: 651px;
+}
+#board .right .block:nth-child(9){
+    left: 744px;
+}
+
+
+#board .right .block .color{
+    width: 100%;
+    height: 25px;
+    border-bottom: solid 3px #333;
+}
+#board .right .block .text{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+#board .right .block .price{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
+#board .right .block .other-text{
+    margin-top: 5px;
+    text-align: center;
+    height: 40px;
+}
+
+
+
+
+
+#board .right .block .chance-text{
+    margin-top: 10px;
+    text-align: center;
+    height: 25px;
+}
+#board .right .block .chance-icon{
+    background: url('../icons/chance-red.gif') center center no-repeat;
+    width: 100%;
+    height: 95px;
+    background-size: auto 100%;
+}
+
+
+
+
+#board .right .block .station-icon{
+    background: url('../icons/train.gif') center center no-repeat;
+    width: 100%;
+    height: 65px;
+    background-size: auto 100%;
+    margin-top: -5px;
+    margin-bottom: -7px;
+}
+#board .right .block .station-price{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+}
+
+
+
+
+#board .right .block .belasting-price{ 
+    margin-top: 33px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+#board .right .block .ring-icon{
+    background: url('../icons/ring.gif') center center no-repeat;
+    width: 100%;
+    height: 45px;
+    background-size: auto 100%;
+    margin-top: -5px;
+    margin-bottom: -40px;
+}
+
+
+
+
+#board .right .block .community-icon{
+    background: url('../icons/chest.gif') center center no-repeat;
+    width: 100%;
+    height: 90px;
+    background-size: auto 100%;
+    margin-top: -5px;
+    margin-bottom: -7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

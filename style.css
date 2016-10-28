@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  src: local('Droid Sans'), local('DroidSans'), url(http://themes.googleusercontent.com/static/fonts/droidsans/v4/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'kabel';
+  font-style: normal;
+  src: url(kabel.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#board{
+    width: auto;
+    border-collapse:collapse;
+    background: #8F8;
+    font-family: 'Droid Sans';
+}
+#board td{
+    border: solid 1px #000;
+}
+
+#board .line1 td, #board .line11 td{
+    height: 130px;
+    width: 90px;
+}
+#board td{
+    height: 80px;
+    width: 130px;
+    border: solid 1px #000;
+}
+#board .middle{
+    border: solid 0px #000;
+}
+.price{
+    font-size: 15px;
+}
+.text{
+    font-size: 14px;
+}
+
+#board .w2{
+    width: 100px;
+}
+
+#board .line1 .color, #board .line11 .color{
+    width: 90px;
+    height: 20px;
+}
+#board .line1 .text, #board .line11 .text{
+    width: 90px;
+    height: 40px;
+    text-align: center;
+}
+
+#board .line1 .price{
+    margin-top: 4px;
+}
+#board .line1 .text{
+    margin-top: 45px;
+}
+
+#board .line1 .price, #board .line11 .price{
+    width: 90px;
+    height: 20px;
+    text-align: center;
+}
+
+
+
+#board td .color{
+    width: 20px;
+    height: 80px;
+}
+
+
+#board td .right{
+    margin-left: 79px;
+    border-left: solid 1px #000;
+}
+#board td .left{
+    margin-right: 79px;
+    border-right: solid 1px #000;
+}
+#board td .top{
+    margin-bottom: 0px;
+    border-bottom: solid 1px #000;
+}
+#board td .bottom{
+    margin-top: 0px;
+    border-top: solid 1px #000;
+}
+
+
+
+
+.pink{
+    background: #F0F;
+}
+.light-blue{
+    background: #08F;
+}
+.purple{
+    background: #909;
+}
+.orange{
+    background: #F80;
+}
+.red{
+    background: #F00;
+}
+.yellow{
+    background: #FF0;
+}
+.green{
+    background: #0A0;
+}
+.dark-blue{
+    background: #00A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,183 @@
+#board .under-hooks{
+    width: 1106px;
+    margin-left: -1px;
+    margin-top: 1px;
+}
+#board .top-hooks{
+    width: 1106px;
+    margin-left: -1px;
+    margin-top: 1px;
+}
+
+
+
+#board .start{
+    float: right;
+    width: 130px;
+    height: 130px;
+    border: solid 3px #333;
+    display: inline-block;
+    
+}
+
+#board .start .title{
+    font-weight: 400;
+    font-size: 25px;
+    
+            transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+            transform-origin: 23px 65px 0px;
+        -ms-transform-origin: 23px 65px 0px;
+    -webkit-transform-origin: 23px 65px 0px;
+    
+    
+    width: 60px;
+    text-align: center;
+}
+#board .start .text{
+    margin-top: -3px;
+    margin-left: -20px;
+    text-align: center;
+    
+            transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+            transform-origin: 50% 50% 0px;
+        -ms-transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    
+}
+
+
+
+
+#board .start .start-icon{
+    background: url('../icons/start-arrow-red.gif') center center no-repeat;
+    background-size: auto 100%;
+    width: 100%;
+    height: 30px;
+    margin-top: 22px;
+}
+
+
+
+
+#board .jail{
+    float: left;
+    width: 130px;
+    height: 130px;
+    border: solid 3px #333;
+    display: inline-block;
+}
+#board .jail .box{
+    position: relative;
+    text-align: center;
+    
+            transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+            transform-origin: 50% 50% 0px;
+        -ms-transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    
+    
+    font-size: 10px;
+    margin-top: -5px;
+    margin-right: -40px;
+    z-index: 1;
+}
+
+#board .jail .box .jail-icon{
+    background: url('../icons/jail.gif') center center no-repeat ;
+    background-size: auto 100%;
+    width: 100%;
+    height: 75px;
+}
+
+#board .jail .box-line{
+    position: relative;
+    border: solid 3px #333;
+    width: 100px;
+    height: 100px;
+    margin-top: -99px;
+    margin-right: -30px;
+    
+            transform: translateX(0px) translateY(0px);
+        -ms-transform: translateX(0px) translateY(3px);
+    -webkit-transform: translateX(0px) translateY(4px);
+    
+    
+    background: #FA5;
+    z-index: 0;
+}
+#board .jail .slechts{
+            transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+            transform-origin: 65px -40px 0;
+        -ms-transform-origin: 65px -40px 0;
+    -webkit-transform-origin: 65px -40px 0;
+}
+
+
+#board .free-park{
+    float: left;
+    width: 130px;
+    height: 130px;
+    border: solid 3px #333;
+    display: inline-block;
+}
+#board .free-park .box{
+    text-align: center;
+    font-size: 16px;
+            transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    margin-top: 10px;
+    margin-left: 15px;
+}
+#board .free-park .box .car-icon{
+    background: url('../icons/car.gif') center center no-repeat;
+    background-size: auto 100%;
+    width: 100%;
+    height: 90px;
+}
+
+
+#board .police{
+    float: right;
+    width: 130px;
+    height: 130px;
+    border: solid 3px #333;
+    display: inline-block;
+    margin-right: -272px;
+}
+#board .police .box{
+    text-align: center;
+            transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#board .police .box .police-icon{
+    background: url('../icons/police.gif') center center no-repeat;
+    background-size: auto 100%;
+    width: 100%;
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

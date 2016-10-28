@@ -1,0 +1,22 @@
+
+body, html{
+    background: #000;
+}
+.config{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -210px;
+    margin-top: -160px;
+    width: 400px;
+    height: 300px;
+    background: #fff;
+    padding: 10px;
+}
+select{
+    
+}
+#names table{
+    width: 100%;
+    text-align: left;
+}

@@ -1,0 +1,85 @@
+::1 [14-10-2015 10:10:03] Wie: Alwin, Plaats: 7, Stappen: 6
+::1 [14-10-2015 10:10:22] Ronnie: Wil huizen kopen
+::1 [14-10-2015 10:10:22] Ronnie: Niet genoeg geld
+::1 [14-10-2015 10:10:06] Ronnie moet € 32000,- aan Alwin betalen.
+::1 [14-10-2015 10:10:20] Eline: Krijg kaart: chance
+::1 [14-10-2015 11:10:01] Wie: Alwin, Plaats: 10, Stappen: 9
+::1 [14-10-2015 11:10:01] Alwin is op een eigen straat
+::1 [14-10-2015 11:10:34] Wie: Alwin, Plaats: 13, Stappen: 2
+::1 [14-10-2015 11:10:34] Alwin is op een eigen straat
+::1 [14-10-2015 11:10:39] Alwin: Krijg kaart: commun
+::1 [14-10-2015 11:10:49] Ronnie: € 20.000,- belasting betalen
+::1 [14-10-2015 11:10:56] Wie: Eline, Plaats: 6, Stappen: 5
+::1 [14-10-2015 11:10:56] Eline is op het grond van Alwin
+alen.
+::1 [14-10-2015 11:10:02] Wie: Alwin, Plaats: 27, Stappen: 9
+::1 [14-10-2015 11:10:02] Alwin moet € 0,- aan Ronnie betalen.
+::1 [14-10-2015 11:10:18] Alwin is op een eigen straat
+en: 9
+::1 [14-10-2015 11:10:23] Ronnie: Krijg kaart: chance
+::1 [14-10-2015 11:10:30] Eline: Krijg kaart: chance
+::1 [14-10-2015 11:10:37] Wie: Alwin, Plaats: 15, Stappen: 5
+::1 [14-10-2015 11:10:37] Alwin is op een eigen straat
+::1 [14-10-2015 11:10:42] Wie: Ronnie, Plaats: 13, Stappen: 5
+::1 [14-10-2015 11:10:42] Ronnie moet € 1,- aan Alwin betalen.
+::1 [14-10-2015 11:10:45] Wie: Alwin, Plaats: 7, Stappen: 6
+::1 [14-10-2015 11:10:45] Alwin is op een eigen straat
+::1 [14-10-2015 11:10:50] Wie: Ronnie, Plaats: 4, Stappen: 3
+::1 [14-10-2015 11:10:03] Wie: Alwin, Plaats: 7, Stappen: 6
+::1 [14-10-2015 11:10:08] Ronnie: € 20.000,- belasting betalen
+::1 [14-10-2015 11:10:14] 5:: Eline moet € 1,- aan Alwin betalen.
+::1 [14-10-2015 11:10:14] Wie: Eline, Plaats: 6, Stappen: 5
+::1 [14-10-2015 11:10:22] Wie: Alwin, Plaats: 9, Stappen: 8
+::1 [14-10-2015 11:10:22] Alwin is op een eigen straat
+::1 [14-10-2015 11:10:27] Ronnie: € 20.000,- belasting betalen
+::1 [14-10-2015 11:10:33] Wie: Alwin, Plaats: 7, Stappen: 6
+::1 [14-10-2015 11:10:33] Alwin is op een eigen straat
+::1 [14-10-2015 11:10:38] Ronnie: € 20.000,- belasting betalen
+::1 [14-10-2015 11:10:49] Alwin: € 20.000,- belasting betalen
+::1 [14-10-2015 11:10:54] Alwin is op een eigen straat
+n: 2
+::1 [14-10-2015 11:10:59] Wie: Alwin, Plaats: 12, Stappen: 5
+::1 [14-10-2015 11:10:59] Alwin is op een eigen straat
+::1 [14-10-2015 11:10:06] Wie: Ronnie, Plaats: 9, Stappen: 8
+::1 [14-10-2015 11:10:40] Alwin is op een eigen straat
+n: 6
+::1 [14-10-2015 11:10:46] Wie: Alwin, Plaats: 16, Stappen: 9
+::1 [14-10-2015 11:10:46] Alwin is op een eigen straat
+::1 [14-10-2015 11:10:51] 5:: Ronnie moet € 1,- aan Alwin betalen.
+::1 [14-10-2015 11:10:51] Ronnie is op het grond van Alwin
+::1 [14-10-2015 11:10:02] Wie: Alwin, Plaats: 7, Stappen: 6
+::1 [14-10-2015 11:10:02] Alwin is op een eigen straat
+::1 [14-10-2015 11:10:07] Ronnie: € 20.000,- belasting betalen
+::1 [14-10-2015 11:10:12] Wie: Ronnie, Plaats: 9, Stappen: 4
+::1 [14-10-2015 11:10:13] 5:: Ronnie moet € 40000,- aan Alwin betalen.
+::1 [14-10-2015 11:10:13] Ronnie is op het grond van Alwin
+::1 [14-10-2015 11:10:39] Alwin: Krijg kaart: chance
+::1 [14-10-2015 11:10:45] Wie: Ronnie, Plaats: 7, Stappen: 6
+::1 [14-10-2015 11:10:45] 1:: Ronnie moet € 0,- aan Alwin betalen.
+::1 [14-10-2015 11:10:45] Ronnie is op het grond van Alwin
+::1 [14-10-2015 11:10:53] Eline: Krijg kaart: chance
+::1 [14-10-2015 11:10:53] Huizen en hotels betalen
+::1 [14-10-2015 11:10:59] Alwin is op een eigen straat
+::1 [14-10-2015 11:10:59] Wie: Alwin, Plaats: 16, Stappen: 8
+::1 [14-10-2015 11:10:04] 5:: Ronnie moet € 1,- aan Alwin betalen.
+::1 [14-10-2015 11:10:04] Ronnie is op het grond van Alwin
+::1 [14-10-2015 11:10:12] Wie: Ronnie, Plaats: 19, Stappen: 6
+::1 [14-10-2015 11:10:12] Ronnie is op een eigen straat
+::1 [14-10-2015 11:10:18] Wie: Alwin, Plaats: 4, Stappen: 3
+::1 [14-10-2015 11:10:18] Alwin is op een eigen straat
+::1 [11-11-2015 14:11:55] Wie: Alwin, Plaats: 10, Stappen: 9
+::1 [11-11-2015 14:11:27] Ronnie is op het grond van Alwin
+ betalen.
+::1 [12-11-2015 13:11:40] Marijn: € 20.000,- belasting betalen
+::1 [12-11-2015 13:11:02] Wie: Marijn, Plaats: 12, Stappen: 7
+::1 [12-11-2015 13:11:02] Marijn is op een eigen straat
+::1 [16-11-2015 17:11:55] Diana is op een eigen straat
+n: 8
+::1 [16-11-2015 17:11:14] Alwin: Wil huizen kopen
+::1 [16-11-2015 17:11:14] Alwin: Niet genoeg geld
+::1 [16-11-2015 17:11:34] 1:: Alwin moet € 0,- aan Diana betalen.
+::1 [16-11-2015 17:11:34] Alwin is op het grond van Diana
+::1 [16-11-2015 17:11:46] Wie: Diana, Plaats: 16, Stappen: 7
+::1 [16-11-2015 17:11:52] Wie: Alwin, Plaats: 15, Stappen: 8
+::1 [16-11-2015 17:11:52] Alwin is op het grond van Diana
+iana betalen.

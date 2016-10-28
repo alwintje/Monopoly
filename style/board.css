@@ -1,0 +1,106 @@
+
+
+
+
+#board{
+    width: 1104px;
+    height: 1104px;
+    background: #9F9;
+    font-family: 'Droid Sans';
+    font-size: 14px;
+    margin: 20px;
+    z-index: 10;
+}
+#rotateLeft{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-size: 16px;
+    padding: 3px;
+    cursor: pointer;
+    z-index: 20;
+}
+#rotateRight{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 16px;
+    padding: 3px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+
+
+
+/* ROTATIONS */
+
+#board .top{
+    width: 840px;
+    transform: rotate(180deg) translateX(0px) translateY(-135px);
+    -ms-transform: rotate(180deg) translateX(0px) translateY(-135px); /* IE 9 */
+    -webkit-transform: rotate(180deg) translateX(0px) translateY(-135px); /* Opera, Chrome, and Safari */
+}
+
+#board .left{
+    width: 840px;
+    transform: rotate(90deg) translateX(552px) translateY(417px);
+    -ms-transform: rotate(90deg) translateX(552px) translateY(417px); /* IE 9 */
+    -webkit-transform: rotate(90deg) translateX(552px) translateY(417px); /* Opera, Chrome, and Safari */
+}
+
+#board .right{
+    width: 840px;
+    transform: rotate(-90deg) translateX(-552px) translateY(417px);
+    -ms-transform: rotate(-90deg) translateX(-552px) translateY(417px); /* IE 9 */
+    -webkit-transform: rotate(-90deg) translateX(-552px) translateY(417px); /* Opera, Chrome, and Safari */
+}
+
+#board .under{
+    width: 840px;
+    transform: translateX(0px) translateY(969px);
+    -ms-transform: translateX(0px) translateY(969px); /* IE 9 */
+    -webkit-transform: translateX(0px) translateY(969px); /* Opera, Chrome, and Safari */
+}
+#board .under-hooks{
+    transform: translateX(0px) translateY(969px);
+    -ms-transform: translateX(0px) translateY(969px); /* IE 9 */
+    -webkit-transform: translateX(0px) translateY(969px); /* Opera, Chrome, and Safari */
+}
+#board .top-hooks{
+    transform: translateX(-136px) translateY(-1px);
+    -ms-transform: translateX(-136px) translateY(-1px);
+    -webkit-transform: translateX(-136px) translateY(-1px);
+}
+
+
+
+
+
+
+
+/* COLORS */
+.pink{
+    background: #F0F;
+}
+.light-blue{
+    background: #08F;
+}
+.purple{
+    background: #909;
+}
+.orange{
+    background: #F80;
+}
+.red{
+    background: #F00;
+}
+.yellow{
+    background: #FF0;
+}
+.green{
+    background: #0A0;
+}
+.dark-blue{
+    background: #00A;
+}
